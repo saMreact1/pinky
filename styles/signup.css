@@ -110,6 +110,7 @@ input {
     #email, #username,
     #password {
         width: 85%;
+        box-shadow: 5px 5px 5px red;
     }
     
     #lastname {
