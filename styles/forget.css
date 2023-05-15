@@ -1,10 +1,6 @@
 * {
   box-sizing:border-box;
 }
-@font-face {
-  font-family: coffee;
-  src: url(fonts/CoffeCake.otf);
-}
 body {
   margin: 0;
   padding: 20px;
@@ -27,7 +23,7 @@ a {
   margin: 0 auto;
 }
 h2 {
-  font-family: coffee;
+  font-family: sofia;
   margin: 0;
   text-align: center;
   color: rgb(255, 0, 119);
