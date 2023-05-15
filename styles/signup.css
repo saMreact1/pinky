@@ -110,7 +110,7 @@ input {
     #email, #username,
     #password {
         width: 85%;
-        box-shadow: 5px 5px 5px red;
+        box-shadow: 5px 5px 5px black;
     }
     
     #lastname {
@@ -122,6 +122,6 @@ input {
     }
     
     input[type='checkbox'] {
-        width: 15px;
+        width: 10px;
     }
 }
