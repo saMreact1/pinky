@@ -1,0 +1,91 @@
+* {
+  box-sizing:border-box;
+}
+@font-face {
+  font-family: coffee;
+  src: url(fonts/CoffeCake.otf);
+}
+body {
+  margin: 0;
+  padding: 0px;
+  background-color: rgb(238, 141, 186);
+}
+header {
+  text-align: center;
+  font-size: 23px;
+}
+header img {
+  width: 150px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+a {
+  font-family: coffee;
+  text-decoration: none;
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+h2 {
+  font-family: coffee;
+  margin: 0;
+  text-align: center;
+  color: rgb(255, 0, 119);
+  text-shadow: 5px 4px 7px rgb(168, 156, 131);
+  font-size: 30px;
+
+}
+hr {
+  margin-bottom: 30px;
+  border: 1px solid rgb(110, 91, 91);
+}
+label {
+  font-size: 20px;
+}
+#number {
+  width: 100%;
+  height: 35px;
+  margin:10px 0;
+  padding-left: 15px;
+  border-radius: 10px;
+}
+#reset, #submit {
+  width:49.4%;
+  border: none;
+  padding:8px;
+  font-size:15px;
+  font-weight: 700;
+  background-color: aqua;
+  border: 1px solid #030C6A;
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 750px) {
+  header img {
+    width: 200px;
+    margin: 0;
+  }
+
+  hr {
+    margin-bottom: 80px;
+  }
+
+  form {
+    width: 40%;
+    text-align: center;
+    margin: 10px auto;
+  }
+
+  #number {
+    height: 50px;
+    margin:20px 0;
+  }
+
+  #reset, #submit {
+    font-size: 20px;
+  }
+
+  label {
+    font-size: 25px;
+  }
+}
