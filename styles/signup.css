@@ -92,7 +92,7 @@ input {
         border: 2px solid black;
         width: 80%;
         border-radius: 15px;
-        background-color: rgb(170, 235, 235);
+        background-color: aqua;
     }
 
     legend {
@@ -100,9 +100,9 @@ input {
     }
 
     input {
-        background-color: aqua;
         border-radius: 20px;
         width: 100%;
+        box-shadow: 5px 5px 5px black;
     }
 
     #firstname, #lastname,
